@@ -12,6 +12,7 @@ PORT = 6667
 
 PASS = "xxx" #oauth key for Twitch
 
+s.send(str.encode("JOIN #CHANNELNAME \r\n")) # replace xxx with channelname
 
 ## Edit the file to take in your own commands!
 
